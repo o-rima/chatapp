@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>チャットアプリ</title>
+  </head>
+  <body>
+    <div class="chat-container">
+      <div class="chat-area" id="output"></div>
+      <div class="enterarea">
+        <button id="plus" type="button">+</button>
+        <button id="stamp" type="button">☺</button>
+        <input type="text" id="userName">
+        <button id="send" type="button">➤</button>
+      </div>
+    </div>
+
+    <div class="tooltip" id="tooltip">
+      ※利用不可</div>
+
+    <div class="emoji-picker" id="emojiPicker">
+      <span>😀</span>
+      <span>😂</span>
+      <span>😍</span>
+      <span>😭</span>
+      <span>😎</span>
+    </div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>
